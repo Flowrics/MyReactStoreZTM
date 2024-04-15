@@ -1,0 +1,15 @@
+.forms-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20vw;
+    width: 80vw;
+    margin: 5vw auto;
+
+    form{
+
+        .button-wrapper{
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
